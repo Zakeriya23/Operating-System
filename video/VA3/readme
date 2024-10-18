@@ -1,0 +1,8 @@
+Managing Binary Files 
+
+bin_file.h: Basic data structure and couple of defines
+bin_write.c: Used to create a binary file of data
+bin_cat.c: Simply displays the content of binary file
+bin_update.c: Allows us to update, in place, a value in the binary file 
+bin_add.c: Adds a new record to the end of the binary file 
+Make file: Manages our build process 
