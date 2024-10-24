@@ -43,4 +43,4 @@ clean cls:
 	rm -f $(PROGS) *.o *~ \#*
 
 tar:
-	tar cvfa bin_files_${LOGNAME}.tar.gz *.[ch] [mM]akefile
+	tar cvfa zhead${LOGNAME}.tar.gz *.[ch] 
