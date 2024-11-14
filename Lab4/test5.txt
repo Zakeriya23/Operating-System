@@ -1,0 +1,15 @@
+ls
+ls -l
+ls -l -a
+ls -l -a -F
+ls -l -aFg -r
+ls -la -F -tBh -r -S
+ls -lrt
+
+ps j --columns 100
+
+
+ls -l -a -F
+ls -l -aFg -r
+ls -la -F -tBh -r -S
+ls -lrt

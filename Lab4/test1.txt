@@ -1,0 +1,19 @@
+cwd
+
+cd .
+cwd
+
+cd ..
+cwd
+
+cd Lab2
+cwd
+
+cd ././../Lab2/.
+cwd
+
+cd
+cwd
+
+
+bye
