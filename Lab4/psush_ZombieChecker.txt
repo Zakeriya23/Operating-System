@@ -1,0 +1,13 @@
+
+
+
+# Don't run the below commands from within psush. Run them
+# from a regular bash shell prompt while psush is running in
+# another terminal.
+=======================
+
+ps -ef -u $LOGNAME
+
+ps -ef | grep defunct
+
+ps -Ao user | grep -vs '^root\|^gdm' | sort | uniq -c | sort -nr | head

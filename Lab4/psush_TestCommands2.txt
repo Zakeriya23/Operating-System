@@ -1,0 +1,36 @@
+ls -l
+
+wc -l < /etc/passwd
+
+cat -n /etc/passwd > JUNK
+
+ls -la -F -t -r -h
+
+ls | wc
+
+ls -l | wc -l
+
+ps -ef | grep defunct
+ps -ef | grep defunct
+ps -ef | grep defunct
+
+wc < /etc/passwd | wc
+ls -l | wc > JUNK
+
+wc -l < /etc/passwd | wc -c > JUNK
+
+ls -la -F -h -t -r | cat -n | wc -l -w -c -L
+ps -ef | grep defunct
+
+cat /etc/passwd | cut -d ':' -f 1 | sort -r | head -n4
+ps -ef | grep defunct
+
+cat < /etc/passwd | sort | cat -n > JUNK
+ps -ef | grep defunct
+
+ps -Ao user | grep rchaney | sort | uniq -c | sort -nr | head
+ps -ef | grep defunct
+
+cat -n Makefile | rev | tac | rev | tac | cut -f2-
+
+ps -elf | grep rchaney | tr r j | awk '{printf("%s\n",$3);}' > JUNK

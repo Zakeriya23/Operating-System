@@ -1,0 +1,62 @@
+     1	root:x:0:0:ada Root:/root:/bin/bash
+     2	daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+     3	bin:x:2:2:bin:/bin:/usr/sbin/nologin
+     4	sys:x:3:3:sys:/dev:/usr/sbin/nologin
+     5	sync:x:4:65534:sync:/bin:/bin/sync
+     6	games:x:5:60:games:/usr/games:/usr/sbin/nologin
+     7	man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+     8	lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+     9	mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+    10	news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+    11	uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+    12	proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+    13	www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+    14	backup:x:34:34:backup:/var/backups:/bin/sh
+    15	list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+    16	irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+    17	_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+    18	nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+    19	systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+    20	systemd-timesync:x:997:997:systemd Time Synchronization:/:/usr/sbin/nologin
+    21	dhcpcd:x:100:65534:DHCP Client Daemon,,,:/usr/lib/dhcpcd:/bin/false
+    22	messagebus:x:101:102::/nonexistent:/usr/sbin/nologin
+    23	systemd-resolve:x:992:992:systemd Resolver:/:/usr/sbin/nologin
+    24	pollinate:x:102:1::/var/cache/pollinate:/bin/false
+    25	polkitd:x:991:991:User for polkitd:/:/usr/sbin/nologin
+    26	syslog:x:103:104::/nonexistent:/usr/sbin/nologin
+    27	uuidd:x:104:105::/run/uuidd:/usr/sbin/nologin
+    28	tcpdump:x:105:107::/nonexistent:/usr/sbin/nologin
+    29	tss:x:106:108:TPM software stack,,,:/var/lib/tpm:/bin/false
+    30	landscape:x:107:109::/var/lib/landscape:/usr/sbin/nologin
+    31	fwupd-refresh:x:989:989:Firmware update daemon:/var/lib/fwupd:/usr/sbin/nologin
+    32	usbmux:x:108:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+    33	sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+    34	lsd_temp:x:1000:1000:LSD:/home/lsd_temp:/bin/bash
+    35	postfix:x:110:111::/var/spool/postfix:/usr/sbin/nologin
+    36	sssd:x:111:113:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+    37	icinga:x:999:988::/opt/icinga:/bin/sh
+    38	zadmin:x:2011:2011::/opt/cat/zadmin:/bin/sh
+    39	rtkit:x:112:116:RealtimeKit,,,:/proc:/usr/sbin/nologin
+    40	dnsmasq:x:996:65534:dnsmasq:/var/lib/misc:/usr/sbin/nologin
+    41	geoclue:x:113:119::/var/lib/geoclue:/usr/sbin/nologin
+    42	avahi:x:114:120:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+    43	sddm:x:115:122:Simple Desktop Display Manager:/var/lib/sddm:/bin/false
+    44	cups-pk-helper:x:116:115:user for cups-pk-helper service,,,:/nonexistent:/usr/sbin/nologin
+    45	whoopsie:x:117:124::/nonexistent:/bin/false
+    46	saned:x:118:126::/var/lib/saned:/usr/sbin/nologin
+    47	colord:x:119:127:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+    48	gnome-remote-desktop:x:987:987:GNOME Remote Desktop:/var/lib/gnome-remote-desktop:/usr/sbin/nologin
+    49	gdm:x:120:128:Gnome Display Manager:/var/lib/gdm3:/bin/false
+    50	cups-browsed:x:121:115::/nonexistent:/usr/sbin/nologin
+    51	pulse:x:122:130:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin
+    52	kernoops:x:123:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+    53	gnome-initial-setup:x:124:65534::/run/gnome-initial-setup/:/bin/false
+    54	systemd-oom:x:986:986:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+    55	speech-dispatcher:x:125:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+    56	nm-openvpn:x:126:132:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+    57	hplip:x:127:7:HPLIP system user,,,:/run/hplip:/bin/false
+    58	_znc:x:128:133::/var/lib/znc:/usr/sbin/nologin
+    59	xrdp:x:129:134::/run/xrdp:/usr/sbin/nologin
+    60	_rpc:x:130:65534::/run/rpcbind:/usr/sbin/nologin
+    61	statd:x:131:65534::/var/lib/nfs:/usr/sbin/nologin
+    62	telegraf:x:995:985::/etc/telegraf:/bin/false

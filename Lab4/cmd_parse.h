@@ -1,4 +1,5 @@
-// rchaney@pdx.edu
+///// Zakeriya Muhumed || Operating System || Psush
+
 
 #ifndef _CMD_PARSE_H
 # define _CMD_PARSE_H
@@ -62,5 +63,10 @@ void print_cmd(struct cmd_s *);
 void exec_commands(cmd_list_t *cmds);
 int process_user_input_simple(void);
 void simple_argv(int argc, char *argv[]);
+void add_to_history(char *command);
+void display_history(void);
+char **construct_argv(cmd_t *cmd);
+
+
 
 #endif // _CMD_PARSE_H
